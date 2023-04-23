@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Admin</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!-- grid for major page layout (sidebar, header, main content) -->
+  <div class="page-container">
+
+    <!-- split in half vertically -->
+    <div class="header">
+      <form action="#" method="post">
+        <button type="submit" class="search-button"><img src="./images/spy-glass.png" width="40px" height="auto"></i></button>
+        <input type="search" id="search_bar">
+      </form>
+    </div>
+
+    <!-- group sidebar items using flexbox. space them using grid. -->
+    <div class="sidebar">
+      <!-- own group -->
+      <h1 class="basic-font">Dashboard</h1>
+      <!-- group together -->
+      <div class="user-sidebar-items basic-font">
+        <h3>Home</h3>
+        <h3>Profile</h3>
+        <h3>Messages</h3>
+        <h3>History</h3>
+        <h3>Tasks</h3>
+        <h3>Communities</h3>
+      </div>
+
+      <!-- group together -->
+      <div class="user-sidebar-items basic-font">
+        <h3>Settings</h3>
+        <h3>Support</h3>
+        <h3>Privacy</h3>  
+      </div>
+    </div>
+    <div class="content"></div>
+  </div>
+</body>
+</html>
